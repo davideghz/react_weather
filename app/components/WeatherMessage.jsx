@@ -2,8 +2,10 @@ var React = require('react');
 
 var Message = React.createClass({
   render: function () {
+    var {temp, location} = this.props; //ES6 destructuring
+
     return(
-      <h2>Message</h2>
+      <h2>It's {temp} in {location}</h2>
     );
   }
 });
