@@ -20,7 +20,11 @@ var React = require('react');
 // stateless functional component, arrow version
 var About = (props) => {
   return(
-    <h3>About component</h3>
+    <div>
+      <h3>About component</h3>
+      <p>Welcome to the About page!</p>
+    </div>
+
   );
 };
 
