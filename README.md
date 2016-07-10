@@ -1,5 +1,5 @@
 # react_weather
-React app to get weather condition for a given City, from a 3rd party API (OpenWeatherMap).  
+React app to get weather condition for a given City, from a 3rd party API (OpenWeatherMap).
 
 ## run webpack
 ```
